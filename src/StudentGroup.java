@@ -47,11 +47,16 @@ public class StudentGroup implements StudentArrayOperation {
 			throw new IllegalArgumentException();
 		else
 			return students[index];
-
 	}
 
 	@Override
 	public void setStudent(Student student, int index) {
+		if(students==null)
+			throw new IllegalArgumentException();
+		if((index<0)||(index>students.length))
+			throw new IllegalArgumentException();
+		else
+			students[index]=student;
 		// Add your implementation here
 	}
 
