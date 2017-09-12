@@ -75,8 +75,10 @@ public class StudentGroup implements StudentArrayOperation {
 	public void add(Student student, int index) {
 		if(students==null)
 		 throw new IllegalArgumentException();
-	    else
+	    else {
 		students[index]=student;
+		//students.length =students.length+1;
+	    }
 		// Add your implementation here
 	}
 
