@@ -66,9 +66,8 @@ public class StudentGroup implements StudentArrayOperation {
 		if(students==null)
 			 throw new IllegalArgumentException();
 		    else {
-			students[l-1]=student;
+			students[l]=student;
 		    }
-		
 		// Add your implementation here
 	}
 
