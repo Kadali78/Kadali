@@ -94,6 +94,8 @@ public class StudentGroup implements StudentArrayOperation {
 			throw new IllegalArgumentException();
 		else
 			students[index]=students[index+1];
+		
+		
 		// Add your implementation here
 	}
 
