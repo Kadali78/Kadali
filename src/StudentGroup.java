@@ -62,6 +62,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void addFirst(Student student) {
+		
 		// Add your implementation here
 	}
 
@@ -72,6 +73,10 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void add(Student student, int index) {
+		if(students==null)
+		 throw new IllegalArgumentException();
+	    else
+		students[index]=student;
 		// Add your implementation here
 	}
 
