@@ -69,8 +69,7 @@ public class StudentGroup implements StudentArrayOperation {
 			 throw new IllegalArgumentException();
 		    else {
 			students[l]=student;
-		    }
-		    
+		    }	    
 		// Add your implementation here
 	}
 
@@ -85,7 +84,6 @@ public class StudentGroup implements StudentArrayOperation {
 		 throw new IllegalArgumentException();
 	    else {
 		students[0]=student;
-		
 		//students.length =students.length+1;
 	    }
 	    
@@ -97,9 +95,7 @@ public class StudentGroup implements StudentArrayOperation {
 		if(index<0 || index >students.length)
 			throw new IllegalArgumentException();
 		else
-			students[index]=students[index+1];
-		
-		
+			students[index]=students[index+1];	
 		// Add your implementation here
 	}
 
