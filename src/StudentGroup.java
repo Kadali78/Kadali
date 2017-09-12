@@ -57,17 +57,18 @@ public class StudentGroup implements StudentArrayOperation {
 			throw new IllegalArgumentException();
 		else
 			students[index]=student;
+		
 		// Add your implementation here
 	}
 
 	@Override
 	public void addFirst(Student student) {
-		int l=students.length;
-		if(students==null)
-			 throw new IllegalArgumentException();
-		    else {
-			students[l]=student;
-		    }
+		//l=students.length;
+		//if(students==null)
+		//	 throw new IllegalArgumentException();
+		 //   else {
+			//students[l]=student;
+		    
 		// Add your implementation here
 	}
 
@@ -84,7 +85,7 @@ public class StudentGroup implements StudentArrayOperation {
 		//students[0]=student;
 		
 		//students.length =students.length+1;
-	    }
+	    
 		// Add your implementation here
 	}
 
