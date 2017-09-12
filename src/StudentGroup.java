@@ -78,10 +78,10 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void add(Student student, int index) {
-		if(students==null)
-		 throw new IllegalArgumentException();
-	    else {
-		students[0]=student;
+		//if(students==null)
+		 //throw new IllegalArgumentException();
+	   // else {
+		//students[0]=student;
 		
 		//students.length =students.length+1;
 	    }
@@ -90,10 +90,10 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void remove(int index) {
-		if(index<0 || index >students.length)
-			throw new IllegalArgumentException();
-		else
-			students[index]=students[index+1];
+		//if(index<0 || index >students.length)
+		//	throw new IllegalArgumentException();
+		//else
+		//	students[index]=students[index+1];
 		
 		
 		// Add your implementation here
